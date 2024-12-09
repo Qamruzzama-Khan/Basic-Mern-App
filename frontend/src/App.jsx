@@ -8,7 +8,7 @@ function App() {
   // Function to fetch data from the backend
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/');
+      const response = await axios.get('https://basic-mern-app-backend.onrender.com');
       setMessage(response.data);  // Update state with the response
     } catch (error) {
       console.error('There was an error fetching the data!', error);
