@@ -14,7 +14,7 @@ app.use(cors({
 }))  
 
 app.get('/', (req, res) => {
-    res.send("This is a basic full stack app.")
+    res.send("This is a basic mern stack app.")
 })
 
 const PORT = 3000;
